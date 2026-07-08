@@ -75,6 +75,7 @@ class NostrSearch extends HTMLElement {
   async search(query) {
     query = (query || '').trim()
     if (!query) return
+    if (this.$('q').value !== query) this.$('q').value = query
     const seq = ++this._seq
     this.$('results').innerHTML = ''
     this.$('status').textContent = 'searching…'
