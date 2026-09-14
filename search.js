@@ -31,7 +31,7 @@ const TEMPLATE = /* html */ `
   input { font: inherit; flex: 1; min-width: 0; padding: .55em .9em; border-radius: 999px;
     border: 1px solid var(--nc-line, #e9e6e0); background: var(--nc-surface, #fff);
     color: inherit; }
-  input:focus { outline: 2px solid var(--nc-accent-soft, #f2ecfd);
+  input:focus { outline: 2px solid var(--nc-accent, #7a5cff); outline-offset: 1px;
     border-color: var(--nc-accent, #7c3aed); }
   button { font: inherit; cursor: pointer; border: none; border-radius: 999px;
     padding: .5em 1.3em; font-weight: 600;
